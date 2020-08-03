@@ -1,0 +1,17 @@
+[package]
+name = "websockets-with-rust-and-actix-web"
+version = "0.1.0"
+authors = ["Steven Leadbeater <info@ledsysconsultancy.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.9.0"
+actix-cors="0.2.0"
+actix-rt = "1.1.1"
+actix-web = "2.0.0"
+actix-web-actors = "2.0.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "0.2.16", features = ["full"] }
